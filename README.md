@@ -1,13 +1,13 @@
 # TextInfomationSystems_RacismTextDetector
 
-Overview
+## Overview
 The goal of our project is to implement a binary text classification model for
 islamophobia, hate against Muslims. In addition to creating the model, we also designed a web
 interface for users to input text to see if it is Islamophobic or not. To allow for ongoing data
 collection, users can add additional islamophobic comments to the dataset through the user
 interface. Lastly, the prevalence of islamophobia from different data sources is visualized in a
 dashboard.
-Data Collection
+## Data Collection
 We have three data sources: Twitter, Reddit, and YouTube. Twitter data was collected
 programmatically through Twitter’s API (link to code to get tweets), Reddit’s API (link to code
 to get comments) and YouTube comments were collected manually. Hashtags and @’s were
@@ -20,7 +20,7 @@ decent hate-speech detection and censoring algorithms, so the data from those so
 heavily non-islamophobic. Only 17% of the data is islamophobic. Second, the manual labeling
 was very challenging because reading the hateful comments is mentally draining. Coder fatigue
 is especially high when the task is focused on something so discouraging.
-Picking a Model
+## Picking a Model
 We estimated six different text classification models without weights: logistic regression,
 linear SVC, multinomial naive bayes, Bernoulli naive bayes, BERT, and Keras (as shown in
 Table 2). The models have a binary output (1 if Islamophobic; 0 otherwise. Each model uses
