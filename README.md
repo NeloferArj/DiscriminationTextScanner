@@ -1,4 +1,4 @@
-# TextInfomationSystems_RacismTextDetector
+# TextInfomationSystems_TextBiasMonitor
 
 ## Overview
 The goal of our project is to implement a binary text classification model for
